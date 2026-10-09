@@ -1,3 +1,9 @@
-h1{text-align:center;font-family:arial;color:red;}
-p{font-family:georgia;font-size:12px;}
-body{background-color:pink;}
+body {background-color:pink:
+     }
+ul{list-style-type:none;
+  }
+Li{display : inline;
+  : 10 px ;
+  } 
+img {width:250 px ;
+    }
