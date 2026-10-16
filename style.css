@@ -6,10 +6,12 @@ h1 {text-align:center;
 
 body {background-color:beige ;
      }
+
 ul{list-style-type:none;
-   padding:10px;
-   font-size;
-   border
+   padding:10 px;
+   font-size: 12 px;
+   border: 2 px solid blue;
+   dashed pink;
   }
    
 Li{display : inline;
