@@ -8,15 +8,16 @@ body {background-color:beige ;
      }
 
 ul{list-style-type:none;
-   padding:10 px;
-   font-size: 12 px;
-   border: 2 px solid blue;
+     border: 2 px solid blue;
    dashed pink;
   }
    
-Li{display : inline;
-  : 3 px ;
-  } 
+li{display : inline;
+  padding:18 px; 
+   font-size: 12 px;
+ 
+  }
+
 img {width:0.1 px ;
     }
 P {text-align:center;
