@@ -7,13 +7,13 @@ h1 {text-align:center;
 body {background-color:beige ;
      }
 
-ul{list-style-type:none;
-     border: 2 px solid blue;
+ul {list-style-type:none;
+     border: 2 px solid red;
    dashed pink;
   }
    
 li{display : inline;
-  padding:18 px; 
+  padding:20 px; 
    font-size: 12 px;
  
   }
