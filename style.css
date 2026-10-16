@@ -8,6 +8,7 @@ body {background-color:beige ;
      }
 
 ul {list-style-type:none;
+    text-align:center;
      border: 4 px solid red;
     background-color: yellow;
   
