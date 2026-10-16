@@ -11,8 +11,8 @@ ul {list-style-type:none;
     text-align:center;
      border: 4 px solid red;
     background-color: yellow;
-  
-  }
+    dashed pink;
+   }
    
 li {display: inline;
   padding:12 px; 
