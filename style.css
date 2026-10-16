@@ -8,9 +8,9 @@ body {background-color:beige ;
      }
 
 ul {list-style-type:none;
-     border: 2 px solid red;
+     border: 4 px solid red;
     background-color: yellow;
-   dashed pink;
+  
   }
    
 li {display: inline;
