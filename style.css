@@ -19,7 +19,8 @@ li {display: inline;
  
   }
 
-img {background-color: transparent;
+img {image-align : center;
+     background-color: transparent;
     width: 200px;height: auto;}
     }
 
