@@ -19,7 +19,8 @@ li {display: inline;
  
   }
 
-img {width: 200px;height: auto;}
+img {background-color: transparent;
+    width: 200px;height: auto;}
     }
 
 P {text-align:center;
