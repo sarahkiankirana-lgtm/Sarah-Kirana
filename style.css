@@ -10,7 +10,7 @@ ul {list-style-type:none;
     text-align:center;
      border: 4 px solid red;
     background-color: yellow;
-    dashed pink;
+    dashed pink;margin-top:30px;margin-bottom:50px:padding:10px 0;
    }
    
 li {display: inline;
