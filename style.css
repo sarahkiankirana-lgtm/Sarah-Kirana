@@ -20,14 +20,14 @@ li {display: inline;
   }
 
 img {display: block;
-    margin-left: auto;margin-right: auto;
-     background-color: transparent;
-    width: 200px;height: auto;}
+    margin-left:auto;margin-right:auto;
+     background-color: ransparent;
+    width: 200px;height:auto;}
     }
 
 P {text-align:center;
   }
 
 h2 {text-align:center;
-    font-family:Times-New-Roman:color:black;
+    font-family:Times-New-Roman:color:pink;-webkit-text-stroke:2px black;
    }
