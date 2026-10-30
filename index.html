@@ -5,59 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"
    <link rel="stylesheet" href="style.css">
     <title>Unicorn Girls - Magical Hub</title>
-    <!-- Google Fonts: Fredoka & Quicksan -->
-    link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-light: #FFF0F5;
-      --pink-main: #FF69B4;
-      --purple-accent: #9B51E0;
-      --text-dark: #4A3E3D;
-      --text-muted: #8A7B7C;
-      --border-color: rgba(255, 105, 180, 0.2);
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Quicksand', sans-serif; }
-    body { background-color: var(--bg-light); color: var(--text-dark); overflow-x: hidden; min-height: 100vh; display: flex; flex-direction: column; }
-    
-    /* Header */
-    header { position: sticky; top: 0; z-index: 100; background: #FFF; border-bottom: 3px solid var(--pink-main); padding: 1rem 2rem; box-shadow: 0 4px 15px rgba(255, 105, 180, 0.15); }
-    nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-    .brand-logo { display: flex; align-items: center; gap: 12px; font-family: 'Fredoka', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--pink-main); text-decoration: none; }
-    .nav-links { display: flex; list-style: none; gap: 2rem; }
-    .nav-links button { background: transparent; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.1rem; font-weight: 700; transition: 0.3s; position: relative; padding: 0.4rem 0; }
-    .nav-links button:hover, .nav-links button.active { color: var(--purple-accent); }
-    .nav-links button.active::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 100%; height: 3px; background: var(--pink-main); border-radius: 3px; }
-    
-    /* Layout Utama */
-    main { max-width: 1200px; width: 100%; margin: 0 auto; padding: 2rem 1.5rem; flex-grow: 1; }
-    .tab-content { display: none; animation: fadeIn 0.5s ease-in-out forwards; }
-    .tab-content.active { display: block; }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
-    
-    /* Hero & Card */
-    .hero { text-align: center; padding: 3rem 1rem; background: linear-gradient(135deg, #FFE4E1 0%, #E6E6FA 100%); border-radius: 20px; margin-bottom: 2.5rem; border: 2px solid #FFF; box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3); }
-    .hero h1 { font-family: 'Fredoka', sans-serif; font-size: 2.8rem; font-weight: 700; color: var(--pink-main); margin-bottom: 0.5rem; }
-    .hero p { font-size: 1.2rem; color: var(--purple-accent); font-weight: 600; }
-    .glass-card { background: #FFF; border: 1px solid var(--border-color); border-radius: 20px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 8px 25px rgba(255, 105, 180, 0.08); }
-    .section-title { font-family: 'Fredoka', sans-serif; font-size: 1.8rem; color: var(--pink-main); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 12px; }
-    .section-title::before { content: '✨'; font-size: 1.5rem; }
-    
-    /* Grid Layouts */
-    .logo-philosophy-grid { display: grid; grid-template-columns: 320px 1fr; gap: 2.5rem; align-items: center; }
-    .logo-display-box { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem 1.5rem; background: #FFF0F5; border-radius: 20px; border: 2px solid var(--pink-main); box-shadow: 0 8px 20px rgba(255, 105, 180, 0.12); text-align: center; }
-    .grid-2col { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
-    .card-box { background: #FFF5F7; padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border-color); }
-    .card-box h3 { font-family: 'Fredoka', sans-serif; color: var(--purple-accent); margin-bottom: 0.5rem; }
-    .card-box p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; }
-    
-    @media (max-width: 768px) {
-      .logo-philosophy-grid { grid-template-columns: 1fr; }
-      .hero h1 { font-size: 2rem; }
-      .nav-links { gap: 1rem; }
-    }
-  </style> 
  </head>
   <body>
 <h1> Welcome to Unicorn Girls </h1>
